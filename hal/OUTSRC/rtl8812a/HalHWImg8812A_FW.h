@@ -33,6 +33,8 @@ ODM_ReadFirmware_MP_8812A_FW_NIC(
      OUT  u1Byte       *pFirmware,
      OUT  u4Byte       *pFirmwareSize
 );
+u4Byte
+ODM_GetVersion_MP_8812A_FW_NIC(VOID);
 
 /******************************************************************************
 *                           FW_NIC_BT.TXT
@@ -44,6 +46,8 @@ ODM_ReadFirmware_MP_8812A_FW_NIC_BT(
      OUT  u1Byte       *pFirmware,
      OUT  u4Byte       *pFirmwareSize
 );
+u4Byte
+ODM_GetVersion_MP_8812A_FW_NIC_BT(VOID);
 
 /******************************************************************************
 *                           FW_WoWLAN.TXT
@@ -55,6 +59,8 @@ ODM_ReadFirmware_MP_8812A_FW_WoWLAN(
      OUT  u1Byte       *pFirmware,
      OUT  u4Byte       *pFirmwareSize
 );
+u4Byte
+ODM_GetVersion_MP_8812A_FW_WoWLAN(VOID);
 
 #endif
 #endif // end of HWIMG_SUPPORT
